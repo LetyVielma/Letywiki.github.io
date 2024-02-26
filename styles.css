@@ -1,0 +1,63 @@
+:root {
+    --color-primario: #D91A1A;
+    --color-secundario: #D96C6C;
+    --color-texto: #0D0D0D;
+    --color-gris-claro: #7D7D7D;
+    --color-gris-medio: #A9A9A9;
+    --color-fondo: #FFFFFF;
+}
+
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+.boton-primario {
+    background-color: var(--color-primario);
+    color: #FFF; /
+}
+
+.boton-secundario {
+    background-color: var(--color-secundario);
+    color: #FFF; 
+}
+
+
+.seccion {
+    background-color: var(--color-gris-claro);
+}
+
+.texto-fondo-oscuro {
+    color: #FFF; /
+}
+
+<button class="boton-primario">Botón Principal</button>
+<button class="boton-secundario">Botón Secundario</button>
+
+<div class="seccion">
+    <p class="texto-fondo-oscuro">Texto en fondo oscuro.</p>
+</div>
+
+.temas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boton-tema {
+    background-color: var(--color-primario);
+    color: #FFF;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.boton-tema img {
+    display: block;
+    margin-top: 5px; /
+    max-width: 100%;
+    height: auto;
+}
+
+/
